@@ -1,3 +1,5 @@
+//create by nandasafiqalfiansyah
+
 import java.io.*;
 import java.util.Scanner; 
 public class tugasakhir {
@@ -8,9 +10,7 @@ public class tugasakhir {
     do{
         System.out.println("");
         System.out.println("================================================="); 
-        System.out.println("--**-- SELAMAT DATANG DI SISTEM PERHOTELAN --**--");
-        System.out.println("--**----- HOTEL NANDA SAFIQ ALFIANSYAH ------**--");
-        System.out.println("--**---------------- 21533401----------------**--");
+        System.out.println("--**-- WELCOME TO SYSTEM MANAGEMEN HOTEL --**--");
         System.out.println("=================================================");
         System.out.println("1. mengecek hotel");
         System.out.println("2. fasilitas");
@@ -55,8 +55,7 @@ public class tugasakhir {
         try {
         System.out.println("");
         System.out.println("=================================================");
-        System.out.println("--**----- HOTEL NANDA SAFIQ ALFIANSYAH ------**--");
-        System.out.println("--**---------------- 21533401----------------**--");
+        System.out.println("--**----- ABOUT------**--");
         System.out.println("=================================================");
         System.out.println("");
         System.out.println("--**---NOTA RIWAYAT PEMESANAN HOTEL NANDA----**--");
@@ -109,12 +108,6 @@ public class tugasakhir {
     private static void fasilitas(){ 
 
      //output penjelasan 
-		System.out.println("");
-        System.out.println("=================================================");
-        System.out.println("--**----- HOTEL NANDA SAFIQ ALFIANSYAH ------**--");
-        System.out.println("--**---------------- 21533401----------------**--");
-        System.out.println("=================================================");
-		System.out.println("");
 		System.out.println("--**-- FASILITAS HOTEL NANDA --**--");                                                           
 		System.out.println("- 35 kamar");
 		System.out.println("- AC");
@@ -156,7 +149,7 @@ public class tugasakhir {
     
     System.out.println("	");
     System.out.println("=================================================");
-    System.out.println("------**-- SISTEM PEMESANAN HOTEL NANDA--**------");
+    System.out.println("------**-- SISTEM PEMESANAN HOTEL--**------");
     System.out.println("=================================================");
     System.out.println("	");
 
@@ -225,7 +218,7 @@ public class tugasakhir {
             
     //output
     
-    System.out.println("\n\n---***--- NOTA PEMBAYARAN HOTEL NANDA ---***---");
+    System.out.println("\n\n---***--- NOTA PEMBAYARAN HOTEL ---***---");
     System.out.println("nomor ktp Pelanggan\t\t: " +noktp);
     System.out.println("Nama Pelanggan\t\t\t: " + nama);
     System.out.println("Alamat pelanggan\t\t: " + alamat);
@@ -247,7 +240,7 @@ public class tugasakhir {
             file,
             true));
         //Menulis data String
-        bw.write("\n\n---***--- NOTA PEMBAYARAN HOTEL NANDA ---***---");
+        bw.write("\n\n---***--- NOTA PEMBAYARAN HOTEL ---***---");
         bw.newLine();
         bw.write("nomor ktp Pelanggan\t\t\t: " +noktp);
         bw.newLine();
